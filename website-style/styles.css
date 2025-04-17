@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(15, 19, 61, 0.904);
+    color: mediumseagreen;
+    font-family: "noto sans", sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .main{
+    color: mediumseagreen;
+  }
+  
+  
+   h1, h2, h3, .paragraph {
+    color:firebrick
+  }
+  
+ /* colors section layout */
+  
+  .colors{
+    display: flex;
+    justify-content: center;
+    flex-wrap:  wrap;
+    gap:40px;
+  }
+  
+  .mb, .mg, .fb{
+    width: 180px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+    border: 5px solid rgba(245, 245, 245, 0.5);
+    box-sizing: border-box;
+    border-radius: 50% / 30%;
+    color: whitesmoke;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mb {
+    background-color: midnightblue;
+  }
+  
+  .mg {
+    background-color: mediumseagreen;
+  }
+
+  .fb {
+    background-color: firebrick;
+  }
+
+  .elements{
+    color: mediumseagreen;
+  }
+
+  .sea {
+    color: mediumseagreen;
+  }
+  
+  .mb-label, .mg-label, .fb-label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  
+  .mb:hover, .mg:hover, .fb:hover, .elements:hover {
+    transform: scale(1.05);
+  }
+
+ /* fonts section layout */
+.fonts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+
+/* font families */
+.font-noto {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.font-gothic {
+  font-family: 'Special Gothic', serif;
+}
+
+.font-winky {
+  font-family: 'Winky Rough', cursive;
+}
+
+/* Text styles */
+.normal {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.section {
+    margin: 20px auto; /* center sections and add vertical spacing */
+    padding: 20px; 
+    border: 2px solid rgba(245, 245, 245, 0.5); /* Border around the section */
+    border-radius: 10px; /* rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-sizing: border-box; /* padding and border in the dimensions */
+    max-width: 800px; 
+}
+
+.typography-section {
+    border-color: mediumseagreen; 
+}
+
+.fonts-section {
+    border-color: firebrick; 
+}
+
+
+
+
+
+
